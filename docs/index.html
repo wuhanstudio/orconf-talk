@@ -55,6 +55,7 @@
                     </div>
 
                     <aside class="notes">
+                        Hi, I'm Research Assistant from Newcastle University in the UK, I would like to introduce how we integrate Machine Learning workflow into LibreLane, an open-source EDA framework. 
                     </aside>
                 </section>
 
@@ -75,6 +76,10 @@
                         </div>
                         <p style="font-size: 35px;">Commercial EDA Tools</p>
                     </div>
+
+                    <aside class="notes">
+                        Instead of using Cadence and Synopsys, we use Librelane, an open-source framework for EDA Design. Open-source means we can write a plugin for it, such as a machine learning plugin.
+                    </aside>
                 </section>
                 
                 <section>
@@ -110,12 +115,22 @@
                         </div>
                         <div class="col col-1"></div>
                     </div>
+
+                    <aside class="notes">
+                        The RTL to GDS flow consits of the front-end and back-end designs, and we focus on the back-end design becuase it is  time-consuming, especailly the detailed routing. After detailed routing, if congestion happens, we need to go back to the placement and global routing, to re-run the workflow. The repeated process can take a lot of time. 
+                        <br />
+                        So we would like to use Machine learning models to enable early-stage prediction of routing congestion, so we don't have to run the detailed routing repeatedly.
+                    </aside>
                 </section>
 
                 <section data-background-video="images/classic.mp4" data-background-video-muted data-menu-title="Classic Flow"  data-state="hide-menubar">
+                    <aside class="notes">
+                    </aside>
                 </section>
 
                 <section data-background-video="images/mlflow.mp4" data-background-video-muted data-menu-title="ML Flow"  data-state="hide-menubar">
+                    <aside class="notes">
+                    </aside>
                 </section>
 
                 <section>
@@ -126,6 +141,10 @@
                             <img src="images/close-loop.png"  class="fragment" width="100%" />
                         </div>
                     </div>
+
+                    <aside class="notes">
+                        Thant's it. In the fure, we would like to add a feedback loop, so that we can use the prediction results to improve the placement and global routing, to avoid congestion in the detailed routing.
+                    </aside>
                 </section>
 
                 <section>
@@ -135,6 +154,10 @@
                     </div>
                     <img src="images/qrcode.png" width="25%" />
                     <p style="font-size: 22px;"><i class="fab fa-github"></i> &nbsp; <a href="https://github.com/wuhanstudio/edabench">Source Code</a></p>
+
+                    <aside class="notes">
+                        Thank you.
+                    </aside>
                 </section>
 
             </div>
